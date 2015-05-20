@@ -9,13 +9,23 @@ This angular directive need jsc3d v1.6.5
 Here is the list of options in this Directive:
 
 file: '@',//url to stl file
+
 width: '@',//default 200
+
 height: '@',// default 200
+
 mode:'@',//point, wireframe, flat, smooth, texturesmooth
+
 progressBar:'@',//on, off
+
 color : '@',//default #CAA618
+
 backgroundColorTop : '@',//default #FFFFFF
+
 backgroundColorBottom : '@',//default #6A6AD4
-selectMode : '@',//booelan,
+
+selectMode : '@',//booelan
+
 sphereMapUrl : '@',//path to texture
+
 stl: '='// link stl object
